@@ -1,0 +1,19 @@
+
+--------------------------
+*Modelo unificado:
+
+Entrenamiento
+python3 run_summarization.py --mode=train --data_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/chunked/train_* --vocab_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/vocab --log_root=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo --exp_name=myexperiment --restore_best_model=1
+
+Evaluacion
+
+python3 run_summarization.py --mode=eval --data_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/chunked/val_* --vocab_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/vocab --log_root=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo --exp_name=myexperiment
+
+
+Decodificar
+python3 run_summarization.py --mode=decode --data_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/chunked/val_* --vocab_path=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo/datos/generar_datos/finished_files/vocab --log_root=/home/juanjo/Desktop/Tesis/tesis_resumenes/codigo --exp_name=myexperiment
+
+----------------------------
+ROUGE
+
+java -jar rouge2-1.2.1 
