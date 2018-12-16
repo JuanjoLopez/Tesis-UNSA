@@ -9,7 +9,14 @@ tipos de enfoques: extractivo y abstractivo.
 La mayoría de estudios se enfocan en solo uno de ellos, en esta tesis se presenta un
 modelo que combina ambos enfoques, los resultados obtenidos muestran que el método
 propuesto es competitivo con los metodos de la literatura y, en varios casos, los superan.
-
+## Organización
+* En la carpeta evaluacion se encuentra los archivos java para realizar la evaluación
+* En la carpeta papers colocamos los articulos relacionados mas importantes
+* En la carpeta pointer-generator esta la RNN utilizada para el nivel extractivo
+* En la carpeta textrank implementamos nuestro algoritmo textrank utilizado en nuestro modelo unificado
+* En la carpeta unificado se presenta el modelo que se usa para unir el resumen extractivo con el abstractivo
+* Añadimos nuestro plan, borrador de tesis y diapositivas
+* El documento comandos.txt contienes los comandos necesarios para realizar los experimentos.
 ## Base de datos
 
 Evaluamos nuestros modelos en el conjunto de datos de CNN / Daily Mail que contiene noticias en los sitios web de CNN y Daily Mail. Cada artículo en
