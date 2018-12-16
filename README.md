@@ -10,10 +10,10 @@ La mayoría de estudios se enfocan en solo uno de ellos, en esta tesis se presen
 modelo que combina ambos enfoques, los resultados obtenidos muestran que el método
 propuesto es competitivo con los metodos de la literatura y, en varios casos, los superan.
 ## Organización
-* En la carpeta evaluacion se encuentra los archivos java para realizar la evaluación
-* En la carpeta papers colocamos los articulos relacionados mas importantes
-* En la carpeta pointer-generator esta la RNN utilizada para el nivel extractivo
-* En la carpeta textrank implementamos nuestro algoritmo textrank utilizado en nuestro modelo unificado
+* En la carpeta evaluacion se encuentra los archivos java para realizar la evaluación con las medidas ROUGE.
+* En la carpeta papers colocamos los articulos relacionados más importantes.
+* En la carpeta pointer-generator esta la RNN utilizada para el nivel abstractivo.
+* En la carpeta textrank implementamos nuestro algoritmo textrank utilizado para el nivel extractivo. 
 * En la carpeta unificado se presenta el modelo que se usa para unir el resumen extractivo con el abstractivo
 * Añadimos nuestro plan, borrador de tesis y diapositivas
 * El documento comandos.txt contienes los comandos necesarios para realizar los experimentos.
