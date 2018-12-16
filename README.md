@@ -1,4 +1,4 @@
-# TESIS-UNSA-"Resumen Automatico de textos basado en un modelo unificado del resumen extractivo y abstractivo"
+# TESIS-UNSA-"Resumen automático de textos basado en un modelo unificado del resumen extractivo y abstractivo"
 ## Autor
 * **Juan López Condori**
 ## Introducción
